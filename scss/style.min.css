@@ -1,8 +1,6 @@
-/*!------------------------------------------------------------------
-[MAIN STYLESHEET]
-PROJECT: Portio HTML
-VERSION: 1.0.0
--------------------------------------------------------------------*/
+/* * { outline: 1px dashed red; }  */
+
+
 @import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Yeseva+One&amp;display=swap"; /*!* Bootstrap v4.5.2 (https://getbootstrap.com/)
 * Copyright 2011-2020 The Bootstrap Authors
 * Copyright 2011-2020 Twitter, Inc.
@@ -9934,10 +9932,10 @@ a.text-dark:hover {
   }
 }
 .blog-preview__item-thumb {
-  /* width: 90%; */
+  width: 50%;
   height: 100%;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 50%;
 }
 @media (max-width: 991px) {
   .blog-preview__item-thumb {
