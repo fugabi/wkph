@@ -9540,7 +9540,7 @@ a.text-dark:hover {
 @media (max-width: 767px) {
   .portfolio-item {
     width: 100%;
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
   }
 }
@@ -9548,18 +9548,18 @@ a.text-dark:hover {
   padding-right: 70px;
 } */
 @media (max-width: 767px) {
-  .portfolio-item:nth-child(4n-3) {
+  /* .portfolio-item:nth-child(4n-3) {
     padding-right: 0;
-  }
+  } */
 }
 /* .portfolio-item:nth-child(4n-1) {
   padding-left: 90px;
 } */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .portfolio-item:nth-child(4n-1) {
     padding-left: 0;
   }
-}
+} */
 /* .portfolio-item:not(:last-child) {
   margin-bottom: 40px;
 } */
