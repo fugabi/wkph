@@ -6987,6 +6987,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  margin-top: 2rem !important;
 }
 .ml-5,
 .mx-5 {
@@ -9020,7 +9021,7 @@ a.text-dark:hover {
   transform: scale(1.03);
 }
 .section {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 .unstyle-list {
   list-style-type: none;
@@ -9085,20 +9086,21 @@ a.text-dark:hover {
   }
 } */
 .navbar {
-  padding: 40px 0;
-  background-color: #fff;
+  padding: 10px 0;
+  /* background-color: #fff; */
+  background: linear-gradient(62deg, rgba(241,246,249,1) 30%, rgba(255,255,255,1) 100%);
   transition: all 0.3s ease;
 }
 @media (max-width: 991px) {
   .navbar {
-    background: #fff;
+    background: linear-gradient(62deg, rgba(255,255,255,1) 30%, rgba(241,246,249,1) 100%);
   }
 }
 @media (max-width: 991px) {
   .navbar {
-    padding: 15px 20px;
-    margin: 10px 10px 0;
-    border-radius: 5px;
+    padding: 5px 15px;
+    /* margin: 10px 10px 0; */
+    /* border-radius: 5px; */
   }
 }
 @media (max-width: 991px) {
@@ -9669,7 +9671,7 @@ a.text-dark:hover {
 }
 .skill {
   position: relative;
-  padding: 100px 0 150px;
+  padding: 100px 0 50px;
 }
 @media (max-width: 991px) {
   .skill {
@@ -9775,7 +9777,7 @@ a.text-dark:hover {
 .testimonial {
   background: #f1f6f9;
   position: relative;
-  padding: 170px 0 150px;
+  /* padding: 170px 0 150px; */
 }
 @media (max-width: 991px) {
   .testimonial {
@@ -10133,6 +10135,8 @@ a.text-dark:hover {
 }
 .footer__widget {
   padding: 100px 0;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 991px) {
   .footer__widget {
